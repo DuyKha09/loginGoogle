@@ -1,0 +1,22 @@
+.flim {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.flim.visible {
+  opacity: 1;
+}
+
+.about {
+  height: 70.5vh;
+}
+
+.carousel .thumb img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.carousel .slide img {
+  max-height: 600px;
+  width: auto;
+}
